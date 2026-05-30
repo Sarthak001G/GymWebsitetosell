@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Premium Gym - Push Your Limits">
-    <title>Elite Fitness Gym</title>
+    <meta name="description" content="Cosmo Fitness - Evolve Your Potential">
+    <title>Cosmo Fitness</title>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
@@ -13,12 +13,13 @@
     <!-- Glassmorphic Navbar -->
     <nav id="navbar">
         <div class="nav-container">
-            <h1 class="logo">ELITE<span>FIT</span></h1>
+            <h1 class="logo">COSMO<span>FIT</span></h1>
             <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#classes">Classes</a></li>
-                <li><a href="#gallery">Gallery</a></li>
-                <li><a href="#about">About</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#classes">PROGRAMS</a></li>
+                <li><a href="#membership">MEMBERSHIP</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+                <li><a href="#membership" class="btn primary-btn nav-btn">Join Now</a></li>
             </ul>
         </div>
     </nav>
@@ -26,90 +27,183 @@
     <!-- Hero Section -->
     <header id="home" class="hero">
         <div class="hero-content">
-            <h1 class="animate-up">UNLEASH YOUR <span class="highlight">POTENTIAL</span></h1>
-            <p class="animate-up delay-1">Join the most premium fitness experience. State of the art equipment and elite trainers.</p>
+            <h1 class="animate-up">EVOLVE YOUR <span class="highlight">POTENTIAL</span></h1>
+            <p class="animate-up delay-1">Experience the next generation of fitness in a high-performance environment designed for the elite.</p>
             <div class="hero-actions animate-up delay-2">
-                <a href="#classes" class="btn primary-btn">Explore Classes</a>
-                <a href="https://wa.me/1234567890?text=Hi!%20I'm%20interested%20in%20joining%20EliteFit." target="_blank" class="btn secondary-btn">Contact on WhatsApp</a>
+                <a href="#membership" class="btn primary-btn">Start Your Journey &rarr;</a>
+                <a href="#classes" class="btn secondary-btn">View Schedule</a>
             </div>
         </div>
         <div class="hero-overlay"></div>
     </header>
 
-    <!-- Classes/Features Section -->
+    <!-- Philosophy Section -->
+    <section id="about" class="section">
+        <div class="philosophy-container reveal">
+            <div class="philosophy-image">
+                <img src="images/philosophy.png" alt="Gym facility" />
+            </div>
+            <div class="philosophy-text">
+                <h4 class="section-subtitle">OUR PHILOSOPHY</h4>
+                <h2>WE DON'T JUST TRAIN.<br><span class="highlight">WE OPTIMIZE.</span></h2>
+                <p>At Cosmo Fitness, we believe that the human body is the most advanced machine in the universe. Our mission is to provide you with the tools, data, and environment to operate at peak performance.</p>
+                <p>We've moved away from the traditional "grind" mentality. Instead, we focus on intelligent progression, bio-feedback integration, and holistic recovery.</p>
+                
+                <ul class="philosophy-features">
+                    <li><span class="check-icon">✓</span> AI-Driven Progress Tracking</li>
+                    <li><span class="check-icon">✓</span> Elite Recovery Lab</li>
+                    <li><span class="check-icon">✓</span> Bio-Metric Analysis</li>
+                    <li><span class="check-icon">✓</span> 24/7 Expert Support</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Programs Section -->
     <section id="classes" class="section">
         <div class="section-title reveal">
             <h2>OUR <span class="highlight">PROGRAMS</span></h2>
-            <p>Designed to push you past your limits.</p>
+            <p>Diverse training modules tailored to your specific goals, from raw power to mindful movement.</p>
         </div>
         
-        <div class="cards-container">
-            <div class="glass-card reveal">
-                <div class="card-icon">💪</div>
-                <h3>Strength Training</h3>
-                <p>Build muscle and increase your power with our elite free-weight zones and guided programs.</p>
-            </div>
-            <div class="glass-card reveal delay-1">
-                <div class="card-icon">🏃</div>
-                <h3>HIIT & Cardio</h3>
-                <p>High-intensity interval training to shred fat and boost endurance effectively.</p>
-            </div>
-            <div class="glass-card reveal delay-2">
-                <div class="card-icon">🧘</div>
-                <h3>Yoga & Mobility</h3>
-                <p>Improve flexibility and core strength while finding your mental balance.</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- About / Trainers Section -->
-    <section id="about" class="section">
-        <div class="section-title reveal">
-            <h2>MEET OUR <span class="highlight">TEAM</span></h2>
-            <p>Learn more about our mission and the experts guiding you.</p>
-        </div>
-        
-        <div class="about-container">
-            <div class="about-text reveal">
-                <h3>About EliteFit</h3>
-                <p>We are dedicated to providing the ultimate fitness environment. Whether you are a beginner or a pro, our state-of-the-art facility has everything you need to crush your goals.</p>
-                <p>Our trainers are certified professionals who are passionate about helping you transform your life through health and fitness.</p>
-            </div>
-            <div class="trainer-card glass-card reveal delay-1">
-                <div class="trainer-image">
-                    <img src="images/trainer1.png" alt="Head Trainer" />
+        <div class="cards-container programs-grid">
+            <div class="program-card reveal" style="background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.8)), url('images/prog_strength.png');">
+                <div class="program-content">
+                    <div class="card-icon">💪</div>
+                    <h3>Hyper Strength</h3>
+                    <p>Advanced resistance training designed to push your limits.</p>
                 </div>
-                <h3>Alex Johnson</h3>
-                <p class="trainer-title">Head Coach & Founder</p>
-                <p>Over 10 years of experience in strength conditioning and athletic performance.</p>
+            </div>
+            <div class="program-card reveal delay-1" style="background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.8)), url('images/prog_cardio.png');">
+                <div class="program-content">
+                    <div class="card-icon">⚡</div>
+                    <h3>Cosmo Cardio</h3>
+                    <p>High-intensity interval training that burns fat and boosts endurance.</p>
+                </div>
+            </div>
+            <div class="program-card reveal delay-2" style="background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.8)), url('images/prog_yoga.png');">
+                <div class="program-content">
+                    <div class="card-icon">🧘</div>
+                    <h3>Zen Flow</h3>
+                    <p>A fusion of yoga and mobility work to enhance flexibility and recovery.</p>
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- Gallery Section -->
-    <section id="gallery" class="section">
+    <!-- Membership Section -->
+    <section id="membership" class="section">
         <div class="section-title reveal">
-            <h2>OUR <span class="highlight">GALLERY</span></h2>
-            <p>See our facility and members in action.</p>
+            <h2>CHOOSE YOUR <span class="highlight">PLAN</span></h2>
+            <p>Flexible options designed for your commitment level.</p>
         </div>
-        
-        <div class="gallery-grid">
-            <div class="gallery-item reveal">
-                <img src="images/gallery1.png" alt="Gym weights" />
+
+        <div class="pricing-container">
+            <!-- Core Plan -->
+            <div class="pricing-card reveal">
+                <h3>Core</h3>
+                <div class="price"><span>$</span>49<span>/month</span></div>
+                <ul class="pricing-features">
+                    <li><span class="check-icon">✓</span> 24/7 Gym Access</li>
+                    <li><span class="check-icon">✓</span> Basic Equipment</li>
+                    <li><span class="check-icon">✓</span> Locker Room Access</li>
+                    <li><span class="check-icon">✓</span> 1 Personal Training Session</li>
+                </ul>
+                <a href="#contact" class="btn secondary-btn full-width">Get Started</a>
             </div>
-            <div class="gallery-item reveal delay-1">
-                <img src="images/gallery2.png" alt="Person working out" />
+
+            <!-- Elite Plan -->
+            <div class="pricing-card elite reveal delay-1">
+                <div class="popular-tag">MOST POPULAR</div>
+                <h3>Elite</h3>
+                <div class="price"><span>$</span>89<span>/month</span></div>
+                <ul class="pricing-features">
+                    <li><span class="check-icon">✓</span> All Core Features</li>
+                    <li><span class="check-icon">✓</span> Unlimited Group Classes</li>
+                    <li><span class="check-icon">✓</span> Sauna & Spa Access</li>
+                    <li><span class="check-icon">✓</span> Monthly Progress Report</li>
+                    <li><span class="check-icon">✓</span> Nutrition Planning</li>
+                </ul>
+                <a href="#contact" class="btn primary-btn full-width">Get Started</a>
             </div>
-            <div class="gallery-item reveal delay-2">
-                <img src="images/gallery3.png" alt="Cardio equipment" />
+
+            <!-- Pro Plan -->
+            <div class="pricing-card reveal delay-2">
+                <h3>Cosmo Pro</h3>
+                <div class="price"><span>$</span>149<span>/month</span></div>
+                <ul class="pricing-features">
+                    <li><span class="check-icon">✓</span> All Elite Features</li>
+                    <li><span class="check-icon">✓</span> Private Coaching</li>
+                    <li><span class="check-icon">✓</span> VIP Recovery Lounge</li>
+                    <li><span class="check-icon">✓</span> Custom Supplement Plan</li>
+                    <li><span class="check-icon">✓</span> Priority Booking</li>
+                </ul>
+                <a href="#contact" class="btn secondary-btn full-width">Get Started</a>
             </div>
         </div>
     </section>
 
-    <!-- Floating WhatsApp Button -->
-    <a href="https://wa.me/1234567890?text=Hi!%20I'm%20interested%20in%20joining%20EliteFit." class="whatsapp-float" target="_blank" aria-label="Contact us on WhatsApp">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" fill="currentColor"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"/></svg>
-    </a>
+    <!-- Contact Form Section -->
+    <section id="contact" class="section">
+        <div class="contact-container reveal">
+            <div class="contact-info">
+                <h2>GET IN <span class="highlight">TOUCH</span></h2>
+                <p>Have questions about our facilities or training programs? Our team is here to help you evolve.</p>
+                
+                <div class="info-item">
+                    <div class="info-icon">📍</div>
+                    <div>
+                        <h4>LOCATION</h4>
+                        <p>NH 19, opposite shri square, Krishna Nagar, Mathura, UP 281001</p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <div class="info-icon">📞</div>
+                    <div>
+                        <h4>PHONE</h4>
+                        <p>08630255505</p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <div class="info-icon">✉️</div>
+                    <div>
+                        <h4>EMAIL</h4>
+                        <p>evolve@cosmofitness.com</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="contact-form">
+                <form onsubmit="event.preventDefault(); alert('Message Sent!');">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label>FULL NAME</label>
+                            <input type="text" placeholder="John Doe" required>
+                        </div>
+                        <div class="form-group">
+                            <label>EMAIL ADDRESS</label>
+                            <input type="email" placeholder="john@example.com" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label>MESSAGE</label>
+                        <textarea rows="5" placeholder="How can we help you?" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-white full-width">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Floating Buttons -->
+    <div class="floating-actions">
+        <a href="tel:08630255505" class="float-btn phone-float" aria-label="Call Us">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor"><path d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z"/></svg>
+        </a>
+        <a href="https://wa.me/08630255505?text=Hi!%20I'm%20interested%20in%20joining%20CosmoFit." class="float-btn whatsapp-float" target="_blank" aria-label="Contact us on WhatsApp">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" fill="currentColor"><path d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"/></svg>
+        </a>
+    </div>
 
     <script src="script.js"></script>
 </body>
